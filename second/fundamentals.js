@@ -5,6 +5,9 @@
 // es5 <=
 'use strict'
 var myNm = 'Android'
+myNm = true
+myNm = 10
+myNm = 89.56
 if(true) {
     var myNm = 'GoLang'
 }

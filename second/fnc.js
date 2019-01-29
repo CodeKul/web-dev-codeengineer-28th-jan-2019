@@ -13,7 +13,8 @@ add(100, 80) //fun call
 // function with return statement
 
 function multiply(num1, num2) {
-    let res = num1 * num
+    console.log(`Value of ${num1} and ${num2}`)
+    let res = num1 * num2
     return res
 }
 
@@ -25,4 +26,4 @@ let res = multiply(89,56) // call and result accumilation
 console.log('Multiplication is '+res)
 //es6
 console.log(`Multiplication is ${res * 8}`)
-console.log(`Multiplication is ${multiply(100,89) * 2}`)
+console.log(`Multiplication is one param ${ isNaN(multiply(100,500)) }`)
