@@ -1,10 +1,76 @@
 <html>
-    <head>
-        <title>CodeKul Web Dev</title>
-    </head>
-    <body>
-        <h1>This is header</h1>
-        <p> welcome to <b>codekul</b> for <strong>learning</strong> web development</p>
-        <img src="donation.svg" alt="this is codekul" width="300px" height="300px">
-    </body>
+
+<head>
+    <title>CodeKul Web Dev</title>
+    <style type="text/css">
+        p {
+            color: #b7262b;
+            border: 1px solid black;
+        }
+
+        #dvBtn {
+            border: 1px dotted blueviolet;
+            padding: 15px;
+        }
+
+        .roundButton {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 50%;
+        }
+
+        .myBtn {
+            display: inline-block;
+            margin: 0;
+            min-width: 100px;
+            padding: 0.5rem;
+            border: 1px solid;
+            border-color: #3ec9cb;
+            border-radius: 2px;
+            background: #3ec9cb;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            line-height: 1.5;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: none;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+            -webkit-transition-property: border-color, background-color, color;
+            transition-property: border-color, background-color, color;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is header</h1>
+    <p> <u>to</u> <b>codekul</b> for <strong>learning</strong> web development</p>
+    <img src="donation.svg" alt="this is codekul" width="300px" height="300px">
+    <p>codekul training in pune</p>
+    <div>
+        <input type="text">
+    </div>
+    <div>
+        <span> First</span>
+        <span> Second</span>
+    </div>
+    <div id="dvBtn">
+        <input type="button" value="+" class="roundButton">
+        <input type="button" value="-" class="roundButton">
+        <input type="button" value="*" class="roundButton">
+        <input type="button" value="/" class="roundButton">
+    </div>
+    <div>
+        <input type="button" value="Log In" class="myBtn">
+    </div>
+</body>
+
 </html>
