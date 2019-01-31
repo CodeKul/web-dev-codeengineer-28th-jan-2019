@@ -1,0 +1,81 @@
+body {
+    padding: 25px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.topLeft {
+    position: absolute;
+    left: 10px;
+
+}
+
+.topRight {
+    position: absolute;
+    right: 0;
+}
+
+.bottomLeft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.centerDiv {
+    margin: 20% auto;
+}
+
+.leftCenter {
+    position: absolute;
+    left: 0;
+    margin: 20% 0px;
+}
+
+.rightCenter {
+    position: absolute;
+    right: 0;
+    margin: 20% 0px;
+}
+
+.top-center {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+
+.center-top {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+}
+
+.cetner-bottom {
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.center-left {
+    position: relative;
+    left: 0;
+}
+
+.center-right {
+    position: absolute;
+    margin-right: 0;
+}
+
+.relaive-pos {
+    position: relative;
+    left: 15px;
+}
