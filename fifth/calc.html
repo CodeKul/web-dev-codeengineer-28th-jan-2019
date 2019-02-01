@@ -13,11 +13,11 @@
     <div id="cntrDv">
         <input type="text" id="num1">
         <input type="text" id="num2">
-        <div id="dvRes"></div>
+        <div id="dvRes" style="width: 200px;height: 100px;background-color: cornsilk;"></div>
         <div>
             <input type="button" value="+" onclick="sum(num1.value, num2.value, this, dvRes)">
-            <input type="button" value="-">
-            <input type="button" value="*">
+            <input type="button" value="-" onclick="sub()">
+            <input type="button" value="*" id="btnMul">
             <input type="button" value="/">
         </div>
     </div>
