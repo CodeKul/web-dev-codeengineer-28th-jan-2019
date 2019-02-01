@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calc.css">
+    <title>My Calculator</title>
+</head>
+
+<body>
+    <div id="cntrDv">
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <div id="dvRes"></div>
+        <div>
+            <input type="button" value="+" onclick="sum(num1.value, num2.value, this, dvRes)">
+            <input type="button" value="-">
+            <input type="button" value="*">
+            <input type="button" value="/">
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>
